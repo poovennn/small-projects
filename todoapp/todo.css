@@ -1,0 +1,64 @@
+table {
+    border: 2px;
+    border-color: black;
+    border-style: solid;
+}
+th, td{
+    /* border-right: 2px; */
+    /* border-right-style: solid ;
+    border-color: black;
+    border-bottom: black; */
+    border-bottom: black solid;
+    border-right: black solid;
+}
+
+.logo{
+    height: 100px;
+    width:100px;
+    float:left;
+    /* padding-right:; */
+    
+    padding-top: 0px;
+    
+}
+.heading{
+    
+    padding-top: 30px;
+    font-family: 'Atomic Age';font-size: 30px;
+}
+h5{
+    font-family: 'Inconsolata';font-size: 15px;
+    padding-bottom: 0px;
+    
+    
+}
+h2{
+text-align: right;
+position:absolute;
+right: 20px;
+top: 20px;
+font-family: 'Atomic Age';
+
+}
+.pooven{
+    height: 35px;
+    position:absolute;
+    top:0px;
+    right: 140px;
+
+}
+
+.header{
+     
+     /* height: 200px;
+     width: auto; */
+     /* background-color: aquamarine; */
+     /* padding-left: 100px; */
+     border-bottom-style: outset;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.list_ul ,ul{
+    list-style-type: none;
+}

@@ -1,0 +1,101 @@
+body{
+    
+    background-size: 100% , 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 100px;
+    width:100px;
+    float:left;
+    /* padding-right:; */
+    
+    padding-top: 0px;
+    
+}
+.heading{
+    
+    padding-top: 30px;
+    font-family: 'Atomic Age';font-size: 30px;
+}
+h5{
+    font-family: 'Inconsolata';font-size: 15px;
+    padding-bottom: 0px;
+    
+    
+}
+h2{
+text-align: right;
+position:absolute;
+right: 20px;
+top: 20px;
+font-family: 'Atomic Age';
+
+}
+.pooven{
+    height: 35px;
+    position:absolute;
+    top:0px;
+    right: 140px;
+
+}
+
+.header{
+     
+     /* height: 200px;
+     width: auto; */
+     /* background-color: aquamarine; */
+     /* padding-left: 100px; */
+     border-bottom-style: outset;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.list_ul ,ul{
+    list-style-type: none;
+}
+
+.divcolor{
+    height: 550px;
+    width: auto;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: grey;
+}
+.display{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color:black;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+.btn
+{
+    height: 40px;
+    width: 100px;
+    margin-left: 33%;
+    margin-top: 5px;
+    font-weight: bold;
+    background-image: linear-gradient(to right,red,green,blue);
+    border-width: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h1btn{
+    border-width: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+}
+.select{
+    margin-left: 20px;
+}
+#basic , #hex{
+    background-color: green;
+}

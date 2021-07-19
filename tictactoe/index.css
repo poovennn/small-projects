@@ -1,0 +1,44 @@
+body{
+    height: 600px;
+    width: auto;
+    background-color: aqua;
+}
+
+*{
+    box-sizing: border-box;
+}
+.container{
+    padding: 40px;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+}
+.btn{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:greenyellow;
+    border-bottom: 3px solid violet;
+    border-right: 3px solid violet;
+
+}
+
+.btn:nth-child(3), .btn:nth-child(6),.btn:nth-child(9){
+    border-right: none;
+}
+.btn:nth-child(7), .btn:nth-child(8),.btn:nth-child(9){
+    border-bottom: none;
+}
